@@ -1,0 +1,134 @@
+.App {
+  text-align: center;
+}
+
+/*************************** Header ****************************/
+.App-logo {
+ /* animation: App-logo-spin infinite 20s linear;*/
+    height: 65px;
+    margin-right: .5rem;
+    margin-top: 0.35rem;
+}
+
+.nav-link {
+  line-height: 1rem;
+  font-size: 12px;
+  margin-top: 1rem;
+}
+
+.App-header {
+    height: 3.5rem;
+    /*margin-bottom: 2.5rem;*/
+}
+
+/************************** Footer *****************************/
+
+.App-footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.footer-content-block {
+  margin-left: 1rem;
+}
+
+.nav-link-footer {
+  font-size: 10px;
+  color: white;
+  margin-right: 1rem;
+  text-align: center;
+}
+
+/*************************** Category **************************/
+
+.Table-block {
+    text-align: center;
+}
+
+.Category-button {
+    width: 7rem;
+    height: 6rem;
+}
+
+/*************************** Product **************************/
+
+
+.product-block {
+  text-align: center;
+  background-color: azure;
+  /*background-color: yellow;*/
+  border: 9px solid ghostwhite;
+}
+
+.product-img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+
+.p-desc {
+  margin-bottom: 0px;
+  font-size: 0.85rem;
+}
+
+.my-container {
+  width: 100%;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+    .App-logo {
+   /* animation: App-logo-spin infinite 20s linear;*/
+      height: 86px;
+    margin-right: 5.5rem;
+    margin-top: .17rem;
+  }
+
+  .nav-link {
+    line-height: 3.75rem;
+    font-size: 18px;
+    margin-right: 10rem;
+  }
+
+  .App-header {
+      height: 4.5rem;
+  }
+
+    .product-img {
+      width: 18rem;
+      height: 18rem;
+      border-radius: 50%;
+      margin-top: 4rem;
+      margin-bottom: 2rem;
+  }
+    .p-desc {
+      margin-bottom: 0px;
+      font-size: 1.2rem;
+  }
+  
+    .App-footer {
+      position: relative;
+      bottom: 0px;
+      width: 100%;
+      margin-top: 4rem;
+    }
+    .nav-link-footer {
+      font-size: 20px;
+      color: white;
+      margin-right: 9rem;
+      text-align: center;
+  }
+
+   .footer-content-block {
+      margin-left: 9rem;
+  }
+
+}
+
+
